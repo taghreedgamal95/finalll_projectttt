@@ -1,0 +1,73 @@
+.active {
+  color: cornflowerblue !important;
+}
+.form-floating {
+  margin: 2rem;
+}
+.btn1 {
+  margin-left: 40rem;
+}
+
+.item {
+  margin: 1 rem;
+}
+
+.item img {
+  height: 200px;
+  object-fit: cover;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+.item button {
+  margin-left: 6rem;
+  margin-bottom: 2rem;
+}
+
+.item button :hover {
+  color: lime;
+}
+
+.item p {
+  text-align: center;
+}
+
+
+
+@media (max-width: 768px) {
+  .item {
+    padding: 10px;
+  }
+
+  .item p {
+    font-size: 14px;
+  }
+
+  .item img {
+    max-width: 80%;
+  }
+
+  .col-md-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .item {
+    padding: 8px;
+  }
+
+  .item p {
+    font-size: 12px;
+  }
+
+  .item img {
+    max-width: 100%;
+  }
+
+  .col-md-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
