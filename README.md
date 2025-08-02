@@ -20,11 +20,6 @@ Deployment: Vercel
 Installation
 To run this project locally, follow these steps:
 
-Clone the Repository:
-git clone https://github.com/your-username/fashion-website-frontend.git
-cd fashion-website-frontend
-
-
 Install Dependencies:
 npm install
 
